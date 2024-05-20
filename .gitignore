@@ -1,0 +1,12 @@
+node_modules
+dist
+out
+out/*
+.DS_Store
+*.log*
+dist/
+node_modules/
+thumbs.db
+.idea/
+/src/bin/*
+/src/bin/

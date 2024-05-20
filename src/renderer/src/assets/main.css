@@ -1,5 +1,10 @@
 @import './base.css';
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   display: flex;
   align-items: center;
@@ -101,7 +106,7 @@ code {
   padding: 6px;
 }
 
-.action a {
+.action a,button {
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
@@ -118,7 +123,7 @@ code {
   background-color: var(--ev-button-alt-bg);
 }
 
-.action a:hover {
+.action a:hover,button:hover{
   border-color: var(--ev-button-alt-hover-border);
   color: var(--ev-button-alt-hover-text);
   background-color: var(--ev-button-alt-hover-bg);
